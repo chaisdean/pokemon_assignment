@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pokemon!!!</title>
+  </head>
+  <body id="something">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+          <script>
+              $(document).ready(function(){
+                    var pokemon;
+                    for (var pokemon = 1; pokemon <= 151; pokemon++){
+                      //  var something = "<img src='"http://pokeapi.co/media/img/(i).png"'>";
+                        $('#something').append('<img src="http://pokeapi.co/media/img/' + pokemon + '.png"/>');
+                    };
+                //$('body img').append('something');
+              });
+          </script>
+  </body>
+</html>
